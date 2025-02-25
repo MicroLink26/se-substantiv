@@ -1,0 +1,34 @@
+[
+    {
+        "ett/en": "en",
+        "singulier": "en man",
+        "pluriel": "män",
+        "groupe": "personne",
+        "traduction_fr": "un homme",
+        "traduction_en": "a man"
+    },
+    {
+        "ett/en": "en",
+        "singulier": "en kvinna",
+        "pluriel": "kvinnor",
+        "groupe": "personne",
+        "traduction_fr": "une femme",
+        "traduction_en": "a woman"
+    },
+    {
+        "ett/en": "ett",
+        "singulier": "ett äpple",
+        "pluriel": "äpplen",
+        "groupe": "nourriture",
+        "traduction_fr": "une pomme",
+        "traduction_en": "an apple"
+    },
+    {
+        "ett/en": "ett",
+        "singulier": "ett hus",
+        "pluriel": "hus",
+        "groupe": "objet",
+        "traduction_fr": "une maison",
+        "traduction_en": "a house"
+    }
+]
