@@ -23,7 +23,7 @@ const startTest = (quizzType, number) => {
     </template>
     <template #heading>Words</template>
 
-    <a href="#">export data</a>
+    <a href="javascript:alert('soon!')">export data</a>
   </WelcomeItem>
 
   <WelcomeItem>
