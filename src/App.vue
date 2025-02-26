@@ -2,7 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 import MainPanel from '@/components/MainPanel.vue'
 import { useDictionaryStore } from '@/stores/dictionary'
-import IconQuizz from '@/components/icons/Iconquizz.vue'
+import IconQuizz from '@/components/icons/IconQuizz.vue'
 const store = useDictionaryStore()
 store.fetchDictionary()
 </script>
