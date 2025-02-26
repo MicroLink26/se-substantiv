@@ -10,5 +10,7 @@ const app = createApp(App)
 
 app.use(createPinia())
 app.use(router)
+import JsonExcel from 'vue-json-excel3'
+app.component('downloadExcel', JsonExcel)
 
 app.mount('#app')
