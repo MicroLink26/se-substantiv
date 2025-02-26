@@ -15,6 +15,7 @@ export const apiClient = axios.create()
 
 export default {
   fetchWords() {
-    return apiClient.get('http://localhost:3000/api/nouns')
+    //https://site--deliveroo-backend--fg6zdpvl2w9z.code.run/api/nouns
+    return apiClient.get('https://site--deliveroo-backend--fg6zdpvl2w9z.code.run/api/nouns')
   },
 }
