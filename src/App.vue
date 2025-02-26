@@ -1,8 +1,8 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import MainPanel from './components/MainPanel.vue'
-import { useDictionaryStore } from './stores/dictionary'
-import IconQuizz from './components/icons/IconQuizz.vue'
+import MainPanel from '@/components/MainPanel.vue'
+import { useDictionaryStore } from '@/stores/dictionary'
+import IconQuizz from '@/components/icons/IconQuizz.vue'
 const store = useDictionaryStore()
 store.fetchDictionary()
 </script>
@@ -94,8 +94,7 @@ nav a:first-of-type {
   aspect-ratio: 1;
   border-radius: 50%;
   background: #514b82;
-  -webkit-mask:
-    repeating-conic-gradient(#0000 0deg, #000 1deg 70deg, #0000 71deg 90deg),
+  -webkit-mask: repeating-conic-gradient(#0000 0deg, #000 1deg 70deg, #0000 71deg 90deg),
     radial-gradient(farthest-side, #0000 calc(100% - var(--b) - 1px), #000 calc(100% - var(--b)));
   -webkit-mask-composite: destination-in;
   mask-composite: intersect;
